@@ -190,7 +190,6 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: gray;
   font-size: 14px;
   line-height: 1.6;
   font-size: 14px;
@@ -343,3 +342,42 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+#header {
+  background: url("../img/background1.jpg") no-repeat;
+  height: 800px;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+  color: #9381de;
+  overflow: auto hidden; }
+  #header h1 {
+    color: #b67df0; }
+  #header article {
+    width: 80%;
+    margin: 0 auto; }
+    #header article img {
+      width: 100%; }
+
+.main-nav {
+  display: flex;
+  margin-top: 20px; }
+  .main-nav .logo {
+    width: 100px;
+    height: 60px; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: #88b1f2;
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .main-nav .download {
+    background-color: #ebeef2;
+    color: #6880d4;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3); }
