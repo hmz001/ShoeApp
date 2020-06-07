@@ -360,6 +360,27 @@ hr {
     #features .cards .apple {
       border-top: 3px solid #00ffaf; }
 
+#discount {
+  margin-top: 50px; }
+  #discount img {
+    max-width: 400px; }
+  #discount .discountLayout {
+    display: flex;
+    align-items: center; }
+
+.offer {
+  width: 40%;
+  margin: 20px auto; }
+  .offer .button {
+    background: #020024;
+    background: linear-gradient(180deg, #020024 0%, #8cccb6 19%, rgba(183, 143, 194, 0.615023) 76%); }
+
+#download {
+  background: #5825ec;
+  padding: 100px 0;
+  margin-top: -70px;
+  align-items: center; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
