@@ -326,6 +326,40 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+#features {
+  background: #f9f9f9;
+  text-align: center;
+  position: relative; }
+  #features:after {
+    bottom: 0;
+    position: absolute;
+    background: inherit;
+    content: " ";
+    height: 100%;
+    left: 0;
+    right: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    z-index: -1; }
+  #features h2 {
+    margin: 80px 0; }
+  #features .cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    margin-bottom: 50px; }
+    #features .cards .feature-card {
+      background: #ffffff;
+      padding: 30px;
+      padding: 30px 40px 10px 40px;
+      box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+    #features .cards .car {
+      border-top: 3px solid #00aaff; }
+    #features .cards .shoe {
+      border-top: 3px solid #ffaa00; }
+    #features .cards .apple {
+      border-top: 3px solid #00ffaf; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -350,7 +384,7 @@ hr {
   text-align: center;
   text-transform: uppercase;
   color: #9381de;
-  overflow: auto hidden; }
+  overflow: hidden; }
   #header h1 {
     color: #b67df0; }
   #header article {
@@ -381,3 +415,16 @@ hr {
     background-color: #ebeef2;
     color: #6880d4;
     box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3); }
+
+#brands ul {
+  text-align: center;
+  padding: 20px 0;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  margin: 0; }
+  @media (max-width: 550px) {
+    #brands ul {
+      grid-template-columns: repeat(3, auto); } }
+  #brands ul li {
+    list-style: none; }

@@ -5,7 +5,7 @@
   text-align: center
   text-transform: uppercase
   color: #9381de
-  overflow: auto hidden
+  overflow: hidden
 
 
   h1
@@ -45,3 +45,23 @@
     background-color: #ebeef2
     color: #6880d4
     box-shadow: 0 12px 10px -10px rgba(0,0,0,0.3)
+
+
+
+#brands ul
+  text-align: center
+  padding: 20px 0
+  background: #ffffff
+  //border-bottom: 1px solid rgba(0,0,0,0.5)
+  display: grid
+  grid-template-columns: repeat(6, auto)
+  margin: 0
+
+  @media (max-width: 550px)
+    grid-template-columns: repeat(3, auto)
+
+
+  li
+    list-style: none
+  li img
+    //width: 80%
