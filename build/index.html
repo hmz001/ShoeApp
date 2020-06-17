@@ -24,21 +24,28 @@
               <img class="logo" src="./assets/img/logo1.png" alt="">
             </a>
           </li>
-          <li>
-            <a href="#">link</a>
-          </li>
-          <li>
-            <a href="#">link</a>
-          </li>
-          <li>
-            <a  class="download" href="#">Download</a>
+          <div id= "nav-responsive" class="nav-responsive">
+            <li>
+              <a href="#">link</a>
+            </li>
+            <li>
+              <a href="#" >link</a>
+            </li>
+            <li>
+              <a  class="download button" href="javascript:void(0);" onclick="showAlert()">Download</a>
+            </li>
+          </div>
+          <li class="nav-toggle">
+            <a href="javascript:void(0);" onclick="toggleNav()">
+              <img src="./assets/img/48/menu.svg" alt="menu">
+            </a>
           </li>
         </ul>
       </nav>
       <article class="">
         <h1>Main headline</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
-        <img src="./assets/img/iPhone11.png" alt="">
+        <img class="phone" src="./assets/img/iPhone11.png" alt="phone">
       </article>
     </div>
 
@@ -106,9 +113,14 @@
   </section>
   <section id="download">
     <div class="wrapper">
-      <h2>Download</h2>
-      
+      <h2>Download anywhere</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci</p>
+      <a href="#" class="button">App Store</a>
+      <a href="#" class="button">Google Play</a>
     </div>
+  </section>
+  <section id="footer">
+
   </section>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/app.js"></script>
