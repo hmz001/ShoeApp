@@ -20,3 +20,21 @@
     max-width: 450px
     margin: 0 auto
     font-weight: 600
+    margin-bottom: 20px
+
+  .button
+    margin-left: 10px
+    margin-right: 10px
+    background: #000000
+    color: #ffffff
+    position: relative
+    &:before
+      padding-right: 10px
+      position: absolute
+      left: 15px
+      top: 12px
+
+  .google::before
+    content: url("../img/32/gplay.png")
+  .apple::before
+    content: url("../img/32/apple-icon.png")
